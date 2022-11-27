@@ -1,5 +1,6 @@
 {
   "name": "corejs-typescript-starter",
+  "descriptor": "CoreJS Typescript Starter Template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +8,8 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Isidro A. Lopez G. <me@ialopezg.com> (https://ialopezg.com)",
+  "license": "MIT",
   "dependencies": {
     "@ialopezg/corejs": "file:../corejs",
     "class-transformer": "^0.5.1",

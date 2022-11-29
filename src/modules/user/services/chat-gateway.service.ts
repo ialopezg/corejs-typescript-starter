@@ -1,8 +1,8 @@
-import { Component, GatewayServer, isUndefined, SocketGateway, SubscribeMessage } from '@ialopezg/corejs';
+import { isUndefined } from '@ialopezg/corejs';
+import { GatewayServer, WebSocketGateway, SubscribeMessage } from '@ialopezg/corejs/lib/socket/decorators';
 import { Subject } from 'rxjs';
 
-@SocketGateway({ port: 2000 })
-@Component()
+@WebSocketGateway({ port: 2000 })
 export class ChatGatewayService {
   private msg$ = new Subject<any>();
 

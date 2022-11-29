@@ -11,7 +11,7 @@
   "author": "Isidro A. Lopez G. <me@ialopezg.com> (https://ialopezg.com)",
   "license": "MIT",
   "dependencies": {
-    "@ialopezg/corejs": "file:../corejs",
+    "@ialopezg/corejs": "^1.0.0-alpha.9",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.13.2",
     "express": "^4.18.2",
